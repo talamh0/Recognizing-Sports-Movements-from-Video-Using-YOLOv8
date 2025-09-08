@@ -45,10 +45,7 @@ Each model was trained and evaluated on a labeled dataset of gym exercises.
 - YOLOv8s (72 layers, ~3M parameters, 8.1 GFLOPs).  
 - Efficient for real-time inference.  
 
-###  Visual Results   
-
-### 🔹 Visual Results  
-
+###  Visual Results     
 - ![mAP Comparison](Overall%20Comparsion/mAPs%20for%20all%20models.png)  
 - ![All Models – mAP Scores](Overall%20Comparsion/FLOPs%20for%20all%20models.png)  
 - ![FLOPs Analysis](Overall%20Comparsion/graph_for%20mAPs.png)  
