@@ -19,14 +19,14 @@ Each exercise is divided into **three phases**: start, middle, and end, enabling
 3. **Hyperparameter Tuning** – Batch sizes tested (8, 16, 32).  
 4. **Evaluation** – Metrics include **mAP@50, mAP@50–95, Precision, Recall**.  
 
-###  Visual Workflow  
-- ![Dataset Labeling](your_dataset_labeling_image.png)  
-- ![YOLO Training Pipeline](your_training_pipeline_image.png)  
-
 ## Evaluation & Results  
 
 We trained three YOLOv8 models to detect **sports movement phases** (start, middle, end).  
 Each model was trained and evaluated on a labeled dataset of gym exercises.  
+
+### Example Predictions  
+- ![Push-up Prediction](pred.jpg)  
+- ![Squat Prediction](pred.jpg) 
 
 ###  Model Performance  
 | Model          | mAP@50   | mAP@50-95 |
