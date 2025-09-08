@@ -48,6 +48,48 @@ Each model was trained and evaluated on a labeled dataset of gym exercises.
 ###  Visual Results     
 - ![mAP Comparison](Overall%20Comparsion/mAPs%20for%20all%20models.png)  
 - ![All Models – mAP Scores](Overall%20Comparsion/FLOPs%20for%20all%20models.png)  
-- ![FLOPs Analysis](Overall%20Comparsion/graph_for%20mAPs.png)  
+- ![FLOPs Analysis](Overall%20Comparsion/graph_for%20mAPs.png)
+
+##  Built With  
+
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+- ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=github&logoColor=black)  
+- ![Roboflow](https://img.shields.io/badge/Roboflow-FF6F00?style=for-the-badge&logo=roboflow&logoColor=white)  
+- ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)  
+- ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)  
+- ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)  
+- ![NumPy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)  
+- ![Matplotlib](https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=plotly&logoColor=white)  
+
+---
+
+##  How to Run  
+
+### 1️⃣ Clone the repository  
+```bash
+pip install -r requirements.txt
+```
+
+2️⃣ Install dependencies 
+```bash
+git clone https://github.com/your-username/Recognizing-Sports-Movements-from-Video-Using-YOLOv8.git
+cd Recognizing-Sports-Movements-from-Video-Using-YOLOv8 
+```
+
+3️⃣ Train the model
+```bash
+yolo task=detect mode=train model=yolov8s.pt data=data.yaml epochs=50 imgsz=640
+```
+
+4️⃣ Evaluate the model
+```bash
+yolo task=detect mode=val model=runs/detect/train/weights/best.pt data=data.yaml
+```
+
+5️⃣ Run inference on new videos/images
+```bash
+yolo task=detect mode=predict model=runs/detect/train/weights/best.pt source=path/to/video.mp4
+```
+
  
 
