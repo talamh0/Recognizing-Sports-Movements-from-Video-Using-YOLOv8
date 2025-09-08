@@ -26,8 +26,8 @@ Each model was trained and evaluated on a labeled dataset of gym exercises.
 
 ### Example Predictions  
 - ![Push-up Prediction](pred.jpg)
- ### 
-- ![Squat Prediction](pred1.jpg) 
+
+- ![pull-up Prediction](pred1.jpg) 
 
 ###  Model Performance  
 | Model          | mAP@50   | mAP@50-95 |
