@@ -25,9 +25,10 @@ We trained three YOLOv8 models to detect **sports movement phases** (start, midd
 Each model was trained and evaluated on a labeled dataset of gym exercises.  
 
 ### Example Predictions  
+- ![pull-up Prediction](pred1.jpg)
+- 
 - ![Push-up Prediction](pred.jpg)
 
-- ![pull-up Prediction](pred1.jpg) 
 
 ###  Model Performance  
 | Model          | mAP@50   | mAP@50-95 |
