@@ -46,6 +46,9 @@ Each model was trained and evaluated on a labeled dataset of gym exercises.
 
 ###  Visual Results   
 
+### 🔹 Visual Results  
+
 - ![mAP Comparison](overall_comparison/graph_for_mAPs.png)  
 - ![All Models – mAP Scores](overall_comparison/mAPs_for_all_models.png)  
 - ![FLOPs Analysis](overall_comparison/FLOPs_for_all_models.png)  
+
