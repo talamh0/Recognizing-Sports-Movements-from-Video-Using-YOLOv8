@@ -1,4 +1,4 @@
-
+### Recognizing-Sports-Movements-from-Video-Using-YOLOv8
 The project focuses on recognizing **sports exercises** from video using **YOLOv8**.  
 Each exercise is divided into **three phases**: start, middle, and end, enabling fine-grained recognition of movements.  
 
